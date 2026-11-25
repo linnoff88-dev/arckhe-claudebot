@@ -852,7 +852,7 @@ Every meaningful message is saved to SQLite with a salience score and automatica
 **How salience works:**
 - Every memory starts at `1.0`
 - Each time a memory is retrieved and used: `+0.1` (capped at `5.0`)
-- Every day, all memories older than 24 hours: `Ã— 0.98` (2% decay)
+- Every day, all memories older than 24 hours: `ê— 0.98` (2% decay)
 - When salience drops below `0.1`: automatically deleted
 
 Things you mention often survive longer. Things you only said once fade away.
@@ -1547,4 +1547,4 @@ MIT
 
 ---
 
-Projeto adaptado da comunidade ARCKHÉ TDS - Marca Arckhe
+Projeto adaptado da comunidade ARCKHÉ TDS - ARCKHÉe
